@@ -55,6 +55,9 @@ for day in work_log:
         if current_streak > longest_streak:
             longest_streak = current_streak
             print(longest_streak)
+        else:
+            current_streak = 0
+            print("longest_streak=",longest_streak)
 
 
 
