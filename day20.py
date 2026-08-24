@@ -98,6 +98,15 @@ class Codegnanportal:
 u1=Codegnanportal(" jyothi",23456,"jyothi2644")
 print(u1.__dict__)
 print(u1._Codegnanportal__password)
+def get_password(self):
+    return "*****"
+def set_password(self,new_password):
+    if len(new_password<=6:
+           print("wrong password not satisfied number of characters")
+           else:
+               self.__password=new_password
+               print("new password
+    
 
 
 
