@@ -57,10 +57,15 @@ with open('data.txt','r+')as h:
 with open('data.txt','r+')as h:
     h.write("today is wednesday")
     print(h.read())
-    
 
-
-
+#file operations size and path
+import os
+file=open('data.txt','r')
+if os.path.exists(file):
+    print("file size is",os.path.getsize(),"bytes")
+    print("file absolute path is",os.path.abspath(file))
+else:
+    print("file is not present")
 
 
 
