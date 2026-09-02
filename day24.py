@@ -52,7 +52,6 @@ with open('data.txt','a')as g:
 with open('data.txt','r+')as h:
     print(h.read())
     h.write("today is wednesday")
-    '''
 
 with open('data.txt','r+')as h:
     h.write("today is wednesday")
@@ -65,7 +64,12 @@ if os.path.exists(file):
     print("file size is",os.path.getsize(),"bytes")
     print("file absolute path is",os.path.abspath(file))
 else:
-    print("file is not present")
+    print("file is not present")'''
+
+#if your project is requiring file handling use it....
+#tokens --> operators -->control statement ,while,if,else,elif,break
+#pop (functions/*args/**kwargs))-->oop
+#data analytics --> Numpy,pandas,data visualisation
     
 
 
